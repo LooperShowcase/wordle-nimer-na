@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+}
+.game {
+  width: 100%;
+}
+.word {
+  display: flex;
+  justify-content: center;
+}
+.letter {
+  width: 35px;
+  height: 35px;
+  background-color: lightslategray;
+  border: 3px solid aliceblue;
+  margin: 5px;
+  font-size: 25px;
+  color: lightblue;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.letter:hover {
+  background-color: azure;
+}
